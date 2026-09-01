@@ -1,0 +1,107 @@
+{
+  "analysis": "analysis3_novel_scenario_bscv",
+  "seed": 20260825,
+  "n_samples": 100,
+  "win_rate_threshold": 0.95,
+  "models": {
+    "Full": {
+      "median": 0.7544100099452173,
+      "ci_lo": 0.653686593885313,
+      "ci_hi": 0.8386564571975068,
+      "n_nan": 0
+    },
+    "No-inference": {
+      "median": 0.5825539992916582,
+      "ci_lo": 0.37849825884962746,
+      "ci_hi": 0.7330600919074193,
+      "n_nan": 0,
+      "win_rate": 0.98,
+      "diff_median": 0.18311615128967157,
+      "diff_ci_lo": 0.04478876152414235,
+      "diff_ci_hi": 0.337354331794124,
+      "n_compared": 100,
+      "supported": true
+    },
+    "No-future": {
+      "median": 0.60423741618158,
+      "ci_lo": 0.46348012491445517,
+      "ci_hi": 0.7350040813754872,
+      "n_nan": 0,
+      "win_rate": 1.0,
+      "diff_median": 0.14433668756796364,
+      "diff_ci_lo": 0.04975104573492858,
+      "diff_ci_hi": 0.2755391919519923,
+      "n_compared": 100,
+      "supported": true
+    },
+    "No-social": {
+      "median": 0.6405730334552641,
+      "ci_lo": 0.49569322682472106,
+      "ci_hi": 0.7716570371531674,
+      "n_nan": 0,
+      "win_rate": 1.0,
+      "diff_median": 0.11649070195770816,
+      "diff_ci_lo": 0.03569940969852013,
+      "diff_ci_hi": 0.1752818138458575,
+      "n_compared": 100,
+      "supported": true
+    },
+    "HP goodness": {
+      "median": 0.2952073683221105,
+      "ci_lo": 0.11724325060106733,
+      "ci_hi": 0.4900006661074418,
+      "n_nan": 0,
+      "win_rate": 1.0,
+      "diff_median": 0.4449313216382039,
+      "diff_ci_lo": 0.24105648164384177,
+      "diff_ci_hi": 0.6703942466960375,
+      "n_compared": 100,
+      "supported": true
+    }
+  },
+  "n_splits": 100,
+  "split_idx_hash": "46a731c397e0498a",
+  "decision_rule": "median R\u00b2 ordering + win rate reported without threshold (spec \u00a74.4)",
+  "timing": {
+    "total_seconds": 262919.39197802544,
+    "mean_seconds_per_fit": 525.7155809731483,
+    "n_fits": 500
+  },
+  "full_param_percentiles": {
+    "prior_exceptional_condition": {
+      "median": 0.09491010010242462,
+      "p2.5": 0.07188468407839536,
+      "p97.5": 0.11944930683821438
+    },
+    "p_ask_given_unexpected": {
+      "median": 0.058473629876971245,
+      "p2.5": 0.025532084796577693,
+      "p97.5": 0.1369566958397627
+    },
+    "p_ask_given_expected": {
+      "median": 0.02340785227715969,
+      "p2.5": 0.010778301488608122,
+      "p97.5": 0.049222108907997573
+    },
+    "discount_future_confusion": {
+      "median": 0.866959810256958,
+      "p2.5": 0.8266787678003311,
+      "p97.5": 0.8888136595487595
+    },
+    "softmax_utterance_weight": {
+      "median": 0.6077287197113037,
+      "p2.5": 0.5417933091521263,
+      "p97.5": 0.7669915258884429
+    },
+    "cost_per_condition_length": {
+      "median": 0.21368145942687988,
+      "p2.5": 0.1209328392520547,
+      "p97.5": 0.3780859410762784
+    },
+    "cost_mentioning_known": {
+      "median": 4.474532842636108,
+      "p2.5": 3.649820178747177,
+      "p97.5": 5.048146533966064
+    }
+  }
+}

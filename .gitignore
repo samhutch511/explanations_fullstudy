@@ -1,0 +1,15 @@
+# Papers and preregistration documents
+*.pdf
+
+# Generated figures
+*.png
+
+# Analysis implementation spec
+analysis_implementation_spec.md
+
+# Raw participant data (human subjects)
+pilot_logs/
+data/
+
+# Local working notes for Claude Code sessions
+CLAUDE.md

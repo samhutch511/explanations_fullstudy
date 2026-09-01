@@ -1,0 +1,166 @@
+model,spec_id,fit_on,param_index,param_name,value
+Full,M1,Orig,0,prior_exceptional_condition,0.044220
+Full,M1,Orig,1,p_ask_given_unexpected,0.087364
+Full,M1,Orig,2,p_ask_given_expected,0.029323
+Full,M1,Orig,3,discount_future_confusion,0.840254
+Full,M1,Orig,4,softmax_utterance_weight,1.020207
+Full,M1,Orig,5,cost_per_condition_length,0.134373
+Full,M1,Orig,6,cost_mentioning_known,2.365562
+Full,M1,L1,0,prior_exceptional_condition,0.046874
+Full,M1,L1,1,p_ask_given_unexpected,0.013284
+Full,M1,L1,2,p_ask_given_expected,0.002398
+Full,M1,L1,3,discount_future_confusion,0.812600
+Full,M1,L1,4,softmax_utterance_weight,0.758723
+Full,M1,L1,5,cost_per_condition_length,0.937456
+Full,M1,L1,6,cost_mentioning_known,3.704434
+Full,M1,L2,0,prior_exceptional_condition,0.120264
+Full,M1,L2,1,p_ask_given_unexpected,0.288511
+Full,M1,L2,2,p_ask_given_expected,0.264031
+Full,M1,L2,3,discount_future_confusion,0.934020
+Full,M1,L2,4,softmax_utterance_weight,0.451830
+Full,M1,L2,5,cost_per_condition_length,1.564827
+Full,M1,L2,6,cost_mentioning_known,4.458007
+Full,M1,L3,0,prior_exceptional_condition,0.150848
+Full,M1,L3,1,p_ask_given_unexpected,0.100523
+Full,M1,L3,2,p_ask_given_expected,0.000875
+Full,M1,L3,3,discount_future_confusion,0.826574
+Full,M1,L3,4,softmax_utterance_weight,0.749608
+Full,M1,L3,5,cost_per_condition_length,0.140120
+Full,M1,L3,6,cost_mentioning_known,3.654309
+Full,M1,All 60,0,prior_exceptional_condition,0.095012
+Full,M1,All 60,1,p_ask_given_unexpected,0.058942
+Full,M1,All 60,2,p_ask_given_expected,0.023700
+Full,M1,All 60,3,discount_future_confusion,0.866991
+Full,M1,All 60,4,softmax_utterance_weight,0.608819
+Full,M1,All 60,5,cost_per_condition_length,0.203853
+Full,M1,All 60,6,cost_mentioning_known,4.544383
+No-inference,M3,Orig,0,param_0,0.000000
+No-inference,M3,Orig,1,param_1,0.000000
+No-inference,M3,Orig,2,param_2,0.000000
+No-inference,M3,Orig,3,param_3,0.867866
+No-inference,M3,Orig,4,param_4,0.716963
+No-inference,M3,Orig,5,param_5,1.053590
+No-inference,M3,Orig,6,param_6,1.216359
+No-inference,M3,L1,0,param_0,0.000000
+No-inference,M3,L1,1,param_1,0.000000
+No-inference,M3,L1,2,param_2,0.000000
+No-inference,M3,L1,3,param_3,0.592723
+No-inference,M3,L1,4,param_4,0.864270
+No-inference,M3,L1,5,param_5,1.358607
+No-inference,M3,L1,6,param_6,0.358588
+No-inference,M3,L2,0,param_0,0.000000
+No-inference,M3,L2,1,param_1,0.000000
+No-inference,M3,L2,2,param_2,0.000000
+No-inference,M3,L2,3,param_3,0.886532
+No-inference,M3,L2,4,param_4,0.245969
+No-inference,M3,L2,5,param_5,1.960397
+No-inference,M3,L2,6,param_6,3.678616
+No-inference,M3,L3,0,param_0,0.000000
+No-inference,M3,L3,1,param_1,0.000000
+No-inference,M3,L3,2,param_2,0.000000
+No-inference,M3,L3,3,param_3,0.603498
+No-inference,M3,L3,4,param_4,0.540267
+No-inference,M3,L3,5,param_5,0.103068
+No-inference,M3,L3,6,param_6,2.106717
+No-inference,M3,All 60,0,param_0,0.000000
+No-inference,M3,All 60,1,param_1,0.000000
+No-inference,M3,All 60,2,param_2,0.000000
+No-inference,M3,All 60,3,param_3,0.864778
+No-inference,M3,All 60,4,param_4,0.343896
+No-inference,M3,All 60,5,param_5,1.215120
+No-inference,M3,All 60,6,param_6,2.778270
+No-future,M4,Orig,0,param_0,0.025990
+No-future,M4,Orig,1,param_1,0.064073
+No-future,M4,Orig,2,param_2,0.014901
+No-future,M4,Orig,3,param_3,0.000000
+No-future,M4,Orig,4,param_4,3.551838
+No-future,M4,Orig,5,param_5,0.011318
+No-future,M4,Orig,6,param_6,0.568702
+No-future,M4,L1,0,param_0,0.040214
+No-future,M4,L1,1,param_1,0.008839
+No-future,M4,L1,2,param_2,0.001054
+No-future,M4,L1,3,param_3,0.000000
+No-future,M4,L1,4,param_4,3.050179
+No-future,M4,L1,5,param_5,0.246512
+No-future,M4,L1,6,param_6,0.856673
+No-future,M4,L2,0,param_0,0.000336
+No-future,M4,L2,1,param_1,0.448648
+No-future,M4,L2,2,param_2,0.188966
+No-future,M4,L2,3,param_3,0.000000
+No-future,M4,L2,4,param_4,0.512826
+No-future,M4,L2,5,param_5,0.031298
+No-future,M4,L2,6,param_6,2.723173
+No-future,M4,L3,0,param_0,0.162073
+No-future,M4,L3,1,param_1,0.100690
+No-future,M4,L3,2,param_2,0.000392
+No-future,M4,L3,3,param_3,0.000000
+No-future,M4,L3,4,param_4,3.610075
+No-future,M4,L3,5,param_5,0.013014
+No-future,M4,L3,6,param_6,0.795646
+No-future,M4,All 60,0,param_0,0.042171
+No-future,M4,All 60,1,param_1,0.157757
+No-future,M4,All 60,2,param_2,0.032857
+No-future,M4,All 60,3,param_3,0.000000
+No-future,M4,All 60,4,param_4,2.618672
+No-future,M4,All 60,5,param_5,0.012995
+No-future,M4,All 60,6,param_6,0.777722
+No-social,M5,Orig,0,param_0,0.005924
+No-social,M5,Orig,1,param_1,0.412879
+No-social,M5,Orig,2,param_2,0.069711
+No-social,M5,Orig,3,param_3,0.832639
+No-social,M5,Orig,4,param_4,1.830815
+No-social,M5,Orig,5,param_5,0.801584
+No-social,M5,Orig,6,param_6,0.000000
+No-social,M5,L1,0,param_0,0.009215
+No-social,M5,L1,1,param_1,0.018900
+No-social,M5,L1,2,param_2,0.000515
+No-social,M5,L1,3,param_3,0.820135
+No-social,M5,L1,4,param_4,0.782919
+No-social,M5,L1,5,param_5,2.953704
+No-social,M5,L1,6,param_6,0.000000
+No-social,M5,L2,0,param_0,0.100372
+No-social,M5,L2,1,param_1,0.325687
+No-social,M5,L2,2,param_2,0.267193
+No-social,M5,L2,3,param_3,0.914473
+No-social,M5,L2,4,param_4,0.563898
+No-social,M5,L2,5,param_5,3.201323
+No-social,M5,L2,6,param_6,0.000000
+No-social,M5,L3,0,param_0,0.246537
+No-social,M5,L3,1,param_1,0.083099
+No-social,M5,L3,2,param_2,0.045962
+No-social,M5,L3,3,param_3,0.720762
+No-social,M5,L3,4,param_4,1.687354
+No-social,M5,L3,5,param_5,1.059879
+No-social,M5,L3,6,param_6,0.000000
+No-social,M5,All 60,0,param_0,0.063308
+No-social,M5,All 60,1,param_1,0.046632
+No-social,M5,All 60,2,param_2,0.013782
+No-social,M5,All 60,3,param_3,0.854962
+No-social,M5,All 60,4,param_4,0.746039
+No-social,M5,All 60,5,param_5,2.287645
+No-social,M5,All 60,6,param_6,0.000000
+HP goodness,M2,Orig,0,param_0,0.011514
+HP goodness,M2,Orig,1,param_1,0.183343
+HP goodness,M2,Orig,2,param_2,0.084661
+HP goodness,M2,Orig,3,param_3,19.456709
+HP goodness,M2,Orig,4,param_4,15.670769
+HP goodness,M2,L1,0,param_0,0.057035
+HP goodness,M2,L1,1,param_1,0.909432
+HP goodness,M2,L1,2,param_2,0.007927
+HP goodness,M2,L1,3,param_3,8.400757
+HP goodness,M2,L1,4,param_4,8.214019
+HP goodness,M2,L2,0,param_0,0.007132
+HP goodness,M2,L2,1,param_1,0.602123
+HP goodness,M2,L2,2,param_2,0.520638
+HP goodness,M2,L2,3,param_3,21.969934
+HP goodness,M2,L2,4,param_4,21.524776
+HP goodness,M2,L3,0,param_0,0.017759
+HP goodness,M2,L3,1,param_1,0.111722
+HP goodness,M2,L3,2,param_2,0.046526
+HP goodness,M2,L3,3,param_3,27.365648
+HP goodness,M2,L3,4,param_4,19.493649
+HP goodness,M2,All 60,0,param_0,0.032167
+HP goodness,M2,All 60,1,param_1,0.153899
+HP goodness,M2,All 60,2,param_2,0.045423
+HP goodness,M2,All 60,3,param_3,17.587898
+HP goodness,M2,All 60,4,param_4,7.145908
