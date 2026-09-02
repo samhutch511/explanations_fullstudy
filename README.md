@@ -113,7 +113,14 @@ results/
 ```
 
 Prediction tables are kept separately so they can be re-scored with a different metric without
-refitting. Figures are gitignored; re-run the figure cell to regenerate them.
+refitting. Generated figures are gitignored; re-run the figure cell to regenerate them.
+
+## Stimuli
+
+`stimuli/` holds the images participants saw — `orig/` (15 scenarios) and `hub/` (45 scenarios),
+indexed to match the notebook's `stim_id` values. See [`stimuli/README.md`](stimuli/README.md) for
+the index-to-set mapping and file-type key. These are reference material; the notebook does not read
+them.
 
 ## Known limitations
 

@@ -4,6 +4,9 @@
 # Generated figures
 *.png
 
+# ...but keep the scenario stimulus images
+!stimuli/**/*.png
+
 # Analysis implementation spec
 analysis_implementation_spec.md
 
